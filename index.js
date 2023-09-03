@@ -6,7 +6,7 @@ const options = {
     key: fs.readFileSync('/etc/letsencrypt/live/nodecal.vps.webdock.cloud/privkey.pem'),
     cert: fs.readFileSync('/etc/letsencrypt/live/nodecal.vps.webdock.cloud/fullchain.pem')
 }
-const port = 80
+const port = 443
 
 const routes = require('./router.js')
 
