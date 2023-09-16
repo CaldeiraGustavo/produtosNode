@@ -22,8 +22,8 @@ module.exports = {
     connection: {
         host : 'localhost',
         port : 3306,
-        user : 'admin',
-        password : 'tEqTHmwGKEF7',
+        user : 'nodecal',
+        password : 'Lw4dxzXKQUAJ',
         database : 'nodecal'
     }
   }
