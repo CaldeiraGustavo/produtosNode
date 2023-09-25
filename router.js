@@ -78,7 +78,7 @@ router.post('/login', (req, res) => {
             jwt.sign(
               {id: usuario.id, roles: usuario.roles},
               process.env.SECRET_KEY,
-              {algorithm: 'HS256', expiresIn: '1h'},
+              {algorithm: 'HS256', expiresIn: '7d'},
               (err, token) => {
               if(err) {
                 res.status(500).json({message: `Erro ao gerar token: ${err.message}`});
